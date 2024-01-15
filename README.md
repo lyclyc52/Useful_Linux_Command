@@ -22,3 +22,10 @@ Or this on Windows
 ```
 type $env:USERPROFILE\.ssh\id_rsa.pub | ssh [remote_username]@[server_ip_address] "cat >> .ssh/authorized_keys"
 ```
+
+
+## Conda
+### Remove environment
+```
+conda remove --name myenv --all
+```
