@@ -29,3 +29,9 @@ type $env:USERPROFILE\.ssh\id_rsa.pub | ssh [remote_username]@[server_ip_address
 ```
 conda remove --name myenv --all
 ```
+
+## Memory Usage
+### Memory Usage of Each folder
+```
+du -h --max-depth=1
+```
