@@ -1,5 +1,5 @@
-# Useful_Linux_Command
-
+# Useful Linux Command
+Some linux commands I found are usefule when I managed our system.
 
 ## Change CUDA Version
 
