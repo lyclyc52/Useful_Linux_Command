@@ -35,3 +35,12 @@ conda remove --name myenv --all
 ```
 du -h --max-depth=1
 ```
+
+## Create Account
+```
+sudo adduser new_user 
+
+sudo mkdir /data/new_user 
+sudo chown new_user :new_user  /data/new_user 
+```
+
