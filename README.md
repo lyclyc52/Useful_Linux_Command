@@ -41,6 +41,6 @@ du -h --max-depth=1
 sudo adduser new_user 
 
 sudo mkdir /data/new_user 
-sudo chown new_user :new_user  /data/new_user 
+sudo chown new_user:new_user  /data/new_user 
 ```
 
