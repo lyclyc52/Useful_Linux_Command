@@ -39,14 +39,14 @@ du -h --max-depth=1
 ## Create Account
 ```
 sudo adduser new_user
+sudo mkdir /data/new_user 
+sudo chown new_user:new_user  /data/new_user 
+```
+
 
 ## Go to iCloud Drive
 access iCloud drive on Mac in terminal
 ```
 cd ~/Library/Mobile\ Documents/com~apple~CloudDocs
-```
-
-sudo mkdir /data/new_user 
-sudo chown new_user:new_user  /data/new_user 
 ```
 
